@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("money-2212965_960_720.jpg");
+  background-size: cover;
+}
+
+.container header {
+  color: rgb(231, 11, 11);
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+}
+
+label {
+  color: white;
+}
+
+form legend {
+  color: white;
+}
+
+thead th {
+  color: white;
+}
