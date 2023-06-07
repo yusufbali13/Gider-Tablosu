@@ -21,9 +21,10 @@
         <div class="d-flex justify-content-center align-items-center mt-3">
           <div class="input-group mb-3 w-50">
             <input
-              type="text"
+              type="number"
               class="form-control"
               id="gelir-val"
+              min="0"
               placeholder="Gelir ekle..."
               autofocus
               aria-describedby="basic-addon2"
@@ -65,7 +66,8 @@
                 >Harcanan Miktar</label
               >
               <input
-                type="text"
+                type="number"
+                min="0"
                 name="miktar"
                 id="giderMiktar"
                 class="form-control"
