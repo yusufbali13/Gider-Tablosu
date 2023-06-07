@@ -155,6 +155,7 @@ function kalanHesapla() {
 
 //! bütün bilgilerin temizlendği alan
 temizle.addEventListener("click", () => {
+  window.location = "index.html";
   myArr = [];
   localStorage.clear();
   kalanHesapla();
