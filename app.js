@@ -150,6 +150,7 @@ function kalanHesapla() {
   <th><span>Kalan</span></th>
   <td><span>: ${kalanMiktar} ₺ </span></td>
     `;
+  kalanDiv.style.backgroundColor = "white";
 }
 
 //! bütün bilgilerin temizlendği alan
